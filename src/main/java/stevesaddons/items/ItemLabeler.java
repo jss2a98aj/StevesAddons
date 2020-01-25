@@ -1,5 +1,8 @@
 package stevesaddons.items;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import cofh.api.energy.IEnergyProvider;
 import cofh.api.energy.IEnergyReceiver;
 import cpw.mods.fml.relauncher.Side;
@@ -24,9 +27,6 @@ import stevesaddons.reference.Reference;
 import stevesaddons.registry.ItemRegistry;
 import vswe.stevesfactory.blocks.ModBlocks;
 import vswe.stevesfactory.blocks.TileEntityClusterElement;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class ItemLabeler extends Item
 {

@@ -1,11 +1,11 @@
 package stevesaddons.naming;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.WorldSavedData;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class NameData extends WorldSavedData
 {

@@ -1,5 +1,7 @@
 package stevesaddons.helpers;
 
+import java.util.Iterator;
+
 import appeng.api.config.Actionable;
 import appeng.api.networking.IGrid;
 import appeng.api.networking.IGridNode;
@@ -17,10 +19,6 @@ import appeng.util.item.AEFluidStack;
 import appeng.util.item.AEItemStack;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
-import stevesaddons.tileentities.TileEntityAENode;
-
-import java.util.Iterator;
-import java.util.Set;
 
 public class AEHelper
 {

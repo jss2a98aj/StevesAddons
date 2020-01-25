@@ -1,5 +1,13 @@
 package vswe.stevesfactory.components;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.EnumSet;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
 import cofh.api.energy.IEnergyConnection;
 import cofh.api.energy.IEnergyProvider;
 import cofh.api.energy.IEnergyReceiver;
@@ -15,9 +23,14 @@ import net.minecraftforge.fluids.IFluidHandler;
 import powercrystals.minefactoryreloaded.api.IDeepStorageUnit;
 import stevesaddons.api.IHiddenInventory;
 import stevesaddons.api.IHiddenTank;
-import stevesaddons.components.*;
+import stevesaddons.components.AdvancedOutputItemCounter;
+import stevesaddons.components.AdvancedSlotInventoryHolder;
+import stevesaddons.components.ComponentMenuRFCondition;
+import stevesaddons.components.ComponentMenuTargetRF;
+import stevesaddons.components.ComponentMenuTriggered;
+import stevesaddons.components.EnergyFacingHolder;
+import stevesaddons.components.RFBufferElement;
 import stevesaddons.helpers.StevesEnum;
-import stevesaddons.reference.Null;
 import stevesaddons.tileentities.TileEntityRFNode;
 import vswe.stevesfactory.blocks.ConnectionBlock;
 import vswe.stevesfactory.blocks.ConnectionBlockType;
@@ -25,8 +38,6 @@ import vswe.stevesfactory.blocks.TileEntityCreative;
 import vswe.stevesfactory.blocks.TileEntityManager;
 import vswe.stevesfactory.components.ComponentMenuListOrder.LoopOrder;
 import vswe.stevesfactory.components.ComponentMenuVariable.VariableMode;
-
-import java.util.*;
 
 public class CommandExecutorRF extends CommandExecutor
 {

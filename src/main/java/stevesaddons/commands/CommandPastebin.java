@@ -1,7 +1,11 @@
 package stevesaddons.commands;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 import cpw.mods.fml.common.FMLCommonHandler;
-import net.minecraft.client.Minecraft;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.command.WrongUsageException;
@@ -9,11 +13,6 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.ItemStack;
 import stevesaddons.helpers.Threaded;
 import stevesaddons.items.ItemSFMDrive;
-
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
 
 public class CommandPastebin extends CommandDuplicator
 {

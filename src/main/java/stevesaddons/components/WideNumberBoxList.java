@@ -1,13 +1,13 @@
 package stevesaddons.components;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import vswe.stevesfactory.CollisionHelper;
 import vswe.stevesfactory.interfaces.GuiManager;
-
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
 public class WideNumberBoxList
 {

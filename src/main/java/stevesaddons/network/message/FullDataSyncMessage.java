@@ -1,6 +1,11 @@
 package stevesaddons.network.message;
 
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
 import com.google.common.base.Throwables;
+
 import cpw.mods.fml.common.network.simpleimpl.IMessage;
 import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;
 import cpw.mods.fml.common.network.simpleimpl.MessageContext;
@@ -9,10 +14,6 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.PacketBuffer;
 import stevesaddons.naming.NameData;
 import stevesaddons.naming.NameRegistry;
-
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 
 public class FullDataSyncMessage implements IMessage, IMessageHandler<FullDataSyncMessage, IMessage>
 {

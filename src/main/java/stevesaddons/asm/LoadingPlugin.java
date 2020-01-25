@@ -1,9 +1,9 @@
 package stevesaddons.asm;
 
+import java.util.Map;
+
 import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
 import net.minecraftforge.classloading.FMLForgePlugin;
-
-import java.util.Map;
 
 @IFMLLoadingPlugin.TransformerExclusions({"stevesaddons.asm."})
 @IFMLLoadingPlugin.MCVersion(value = "1.7.10")

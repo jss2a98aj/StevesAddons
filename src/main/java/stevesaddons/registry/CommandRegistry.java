@@ -1,16 +1,21 @@
 package stevesaddons.registry;
 
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.CommandNotFoundException;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayerMP;
-import stevesaddons.commands.*;
-
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import stevesaddons.commands.CommandClear;
+import stevesaddons.commands.CommandHelp;
+import stevesaddons.commands.CommandLoad;
+import stevesaddons.commands.CommandPastebin;
+import stevesaddons.commands.CommandSave;
+import stevesaddons.commands.ISubCommand;
 
 public class CommandRegistry extends CommandBase
 {

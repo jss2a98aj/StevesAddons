@@ -1,8 +1,8 @@
 package stevesaddons.commands;
 
-import net.minecraft.command.ICommandSender;
-
 import java.util.List;
+
+import net.minecraft.command.ICommandSender;
 
 public interface ISubCommand
 {

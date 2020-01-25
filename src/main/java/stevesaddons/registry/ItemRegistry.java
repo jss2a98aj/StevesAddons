@@ -1,5 +1,8 @@
 package stevesaddons.registry;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -10,9 +13,6 @@ import stevesaddons.items.ItemLabeler;
 import stevesaddons.items.ItemSFMDrive;
 import stevesaddons.reference.Names;
 import vswe.stevesfactory.blocks.ModBlocks;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class ItemRegistry
 {

@@ -1,12 +1,12 @@
 package vswe.stevesfactory.blocks;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import cofh.api.energy.IEnergyHandler;
 import net.minecraftforge.common.util.ForgeDirection;
 import stevesaddons.helpers.StevesEnum;
 import stevesaddons.tileentities.TileEntityRFNode;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class TileEntityRFCluster extends TileEntityCluster implements IEnergyHandler
 {

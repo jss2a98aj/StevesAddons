@@ -1,15 +1,15 @@
 package stevesaddons.threading;
 
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.event.RenderWorldLastEvent;
 import vswe.stevesfactory.components.ScrollController;
-
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
 
 @SideOnly(Side.CLIENT)
 public class ThreadSafeHandler

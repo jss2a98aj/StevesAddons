@@ -1,11 +1,11 @@
 package stevesaddons.components;
 
-import vswe.stevesfactory.components.FlowComponent;
-import vswe.stevesfactory.components.SlotInventoryHolder;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+
+import vswe.stevesfactory.components.FlowComponent;
+import vswe.stevesfactory.components.SlotInventoryHolder;
 
 public class RFBufferElement
 {

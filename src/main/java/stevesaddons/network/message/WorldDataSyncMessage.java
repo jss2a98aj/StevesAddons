@@ -1,6 +1,9 @@
 package stevesaddons.network.message;
 
+import java.io.IOException;
+
 import com.google.common.base.Throwables;
+
 import cpw.mods.fml.common.network.simpleimpl.IMessage;
 import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;
 import cpw.mods.fml.common.network.simpleimpl.MessageContext;
@@ -9,8 +12,6 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.PacketBuffer;
 import stevesaddons.naming.NameData;
 import stevesaddons.naming.NameRegistry;
-
-import java.io.IOException;
 
 public class WorldDataSyncMessage implements IMessage, IMessageHandler<WorldDataSyncMessage, IMessage>
 {

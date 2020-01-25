@@ -1,5 +1,7 @@
 package stevesaddons.waila;
 
+import java.util.List;
+
 import mcp.mobius.waila.api.ITaggedList;
 import mcp.mobius.waila.api.IWailaConfigHandler;
 import mcp.mobius.waila.api.IWailaDataAccessor;
@@ -12,10 +14,6 @@ import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
 import stevesaddons.naming.BlockCoord;
 import stevesaddons.naming.NameRegistry;
-
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
 
 public class WailaLabelProvider implements IWailaDataProvider
 {

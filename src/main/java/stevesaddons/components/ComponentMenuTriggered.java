@@ -1,18 +1,21 @@
 package stevesaddons.components;
 
+import java.util.EnumSet;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.nbt.NBTTagCompound;
 import stevesaddons.asm.StevesHooks;
-import vswe.stevesfactory.components.*;
+import vswe.stevesfactory.components.ComponentMenu;
+import vswe.stevesfactory.components.ConnectionOption;
+import vswe.stevesfactory.components.FlowComponent;
+import vswe.stevesfactory.components.TextBoxNumberList;
 import vswe.stevesfactory.interfaces.ContainerManager;
 import vswe.stevesfactory.interfaces.GuiManager;
 import vswe.stevesfactory.network.DataBitHelper;
 import vswe.stevesfactory.network.DataReader;
 import vswe.stevesfactory.network.DataWriter;
 import vswe.stevesfactory.network.PacketHandler;
-
-import java.util.EnumSet;
 
 
 public abstract class ComponentMenuTriggered extends ComponentMenu

@@ -1,9 +1,10 @@
 package stevesaddons.interfaces;
 
+import org.lwjgl.input.Mouse;
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.Gui;
-import org.lwjgl.input.Mouse;
 
 public class GuiTextEntry extends Gui
 {

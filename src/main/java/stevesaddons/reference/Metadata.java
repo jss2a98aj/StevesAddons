@@ -1,8 +1,8 @@
 package stevesaddons.reference;
 
-import cpw.mods.fml.common.ModMetadata;
-
 import java.util.Arrays;
+
+import cpw.mods.fml.common.ModMetadata;
 
 public class Metadata
 {

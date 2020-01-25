@@ -1,6 +1,8 @@
 package stevesaddons.waila;
 
 
+import java.util.List;
+
 import cofh.api.energy.IEnergyProvider;
 import mcp.mobius.waila.api.ITaggedList;
 import mcp.mobius.waila.api.IWailaConfigHandler;
@@ -12,8 +14,6 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
-
-import java.util.List;
 
 public class RFDataFixer implements IWailaDataProvider
 {

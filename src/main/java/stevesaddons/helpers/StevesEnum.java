@@ -1,16 +1,30 @@
 package stevesaddons.helpers;
 
+import java.lang.reflect.Field;
+
 import cofh.api.energy.IEnergyConnection;
 import cofh.api.energy.IEnergyProvider;
 import cofh.api.energy.IEnergyReceiver;
 import net.minecraftforge.common.util.EnumHelper;
-import stevesaddons.components.*;
+import stevesaddons.components.ComponentMenuDelayed;
+import stevesaddons.components.ComponentMenuRFCondition;
+import stevesaddons.components.ComponentMenuRFInput;
+import stevesaddons.components.ComponentMenuRFOutput;
+import stevesaddons.components.ComponentMenuRFStorage;
+import stevesaddons.components.ComponentMenuTargetRF;
 import vswe.stevesfactory.Localization;
 import vswe.stevesfactory.blocks.ClusterMethodRegistration;
 import vswe.stevesfactory.blocks.ConnectionBlockType;
-import vswe.stevesfactory.components.*;
-
-import java.lang.reflect.Field;
+import vswe.stevesfactory.components.ComponentMenuBUDs;
+import vswe.stevesfactory.components.ComponentMenuInterval;
+import vswe.stevesfactory.components.ComponentMenuReceivers;
+import vswe.stevesfactory.components.ComponentMenuRedstoneSidesTrigger;
+import vswe.stevesfactory.components.ComponentMenuRedstoneStrength;
+import vswe.stevesfactory.components.ComponentMenuResult;
+import vswe.stevesfactory.components.ComponentMenuUpdateBlock;
+import vswe.stevesfactory.components.ComponentType;
+import vswe.stevesfactory.components.ConnectionOption;
+import vswe.stevesfactory.components.ConnectionSet;
 
 public class StevesEnum
 {

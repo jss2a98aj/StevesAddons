@@ -1,5 +1,8 @@
 package stevesaddons.components;
 
+import java.util.Iterator;
+import java.util.List;
+
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 import stevesaddons.api.IHiddenInventory;
@@ -7,9 +10,6 @@ import vswe.stevesfactory.components.ItemBufferElement;
 import vswe.stevesfactory.components.ItemSetting;
 import vswe.stevesfactory.components.Setting;
 import vswe.stevesfactory.components.SlotInventoryHolder;
-
-import java.util.Iterator;
-import java.util.List;
 
 public class AdvancedOutputItemCounter
 {

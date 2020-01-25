@@ -5,7 +5,6 @@ import cofh.api.energy.IEnergyReceiver;
 import mcp.mobius.waila.api.IWailaRegistrar;
 import net.minecraft.inventory.IInventory;
 import net.minecraftforge.fluids.IFluidHandler;
-import stevesaddons.tileentities.TileEntityRFNode;
 import vswe.stevesfactory.blocks.TileEntityCluster;
 import vswe.stevesfactory.blocks.TileEntityClusterElement;
 import vswe.stevesfactory.blocks.TileEntityRFCluster;
